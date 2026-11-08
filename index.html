@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор даты и времени</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Барбершоп</h1>
+        <div class="month-nav">
+            <button id="prev-month">&lt;</button>
+            <span id="month-title"></span>
+            <button id="next-month">&gt;</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="calendar-section">
+            <h2>Выберите день</h2>
+            <div id="calendar-grid" class="calendar-grid"></div>
+        </section>
+
+        <section class="time-section">
+            <h2>Доступное время</h2>
+            <div id="time-grid" class="time-grid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div id="bottom-bar" class="bottom-bar">Выберите дату и время</div>
+        <button class="submit-btn">Продолжить</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
